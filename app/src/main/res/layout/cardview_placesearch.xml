@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/placeSearch_RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/placeSearch_PlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/place"
+        android:drawablePadding="6dp"
+        android:padding="5dp"
+        android:text="Redfort"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/placeSearch_CityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeSearch_PlaceName"
+        android:layout_marginLeft="30dp"
+        android:text="Redfort"
+        android:layout_marginRight="80dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/placeSearch_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/placeSearch_PlaceName"
+        android:layout_marginLeft="30dp"
+        android:text="33.10 km"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/placeSearch_CityName"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray" />
+</RelativeLayout>
